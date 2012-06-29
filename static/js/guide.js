@@ -59,18 +59,6 @@ jQuery(function ($) {
                 guiders.next();
             } }
             ],
-        next: "guide_sgclassic"
-    });
-
-    guiders.createGuider({
-        id: "guide_sgclassic",
-        title: "Classic Supergrep",
-        description: "If you do not like the new interface or are having problem, you can always go back to the classic view with this link.",
-        attachTo: '#classic-view',
-        position: 7,
-        buttons: [
-            { name: "Next" }
-            ],
         next: "guide_legend"
     });
 
